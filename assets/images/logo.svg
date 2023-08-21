@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Border -->
+    <circle cx="100" cy="100" r="100" fill="#b7bbc4" />
+
+    <!-- Circular Background -->
+    <circle cx="100" cy="100" r="98" fill="#282C34" />
+
+    <!-- Money Bag -->
+    <path d="M100 140 L160 100 L160 50 Q100 10 40 50 L40 100 Z" fill="rgb(0, 128, 0)" />
+
+    <!-- Dollar Sign -->
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48" font-weight="bold" fill="#FFFFFF" font-family="Arial, sans-serif">
+        $
+    </text>
+
+    <!-- Application Name -->
+    <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF" font-family="Roboto, sans-serif">
+        <tspan>A</tspan><tspan fill="rgb(0, 128, 0)">m</tspan><tspan>ount </tspan><tspan fill="rgb(0, 128, 0)">M</tspan><tspan>anager</tspan>
+    </text>
+</svg>
