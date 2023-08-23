@@ -1,6 +1,8 @@
+import 'package:amount_manager_mobile/routes/route_mapper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -33,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget _formBuilder() {
     return Column(
       children: [
-         Container(
+        Container(
           child: SvgPicture.asset('assets/images/logo.svg', width: 150.0, height: 150.0,),
         ),
         TextFormField(
@@ -84,7 +86,9 @@ class _LoginPageState extends State<LoginPage> {
           height: 25,
         ),
         ElevatedButton(
-            onPressed: (() => {}),
+            onPressed: (() => {
+              Get.toNamed(RouteMapper.getNavbarSelector())
+            }),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Colors.green),
             ),
